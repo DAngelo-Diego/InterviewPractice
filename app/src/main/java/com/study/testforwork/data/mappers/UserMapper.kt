@@ -11,6 +11,7 @@ fun ResultDto.toDomain(): UsersModel {
         age = this.dob.age,
         address = this.location.city,
         phoneNumber = this.phone,
-        password = this.login.password
+        password = this.login.password,
+        picture = this.picture.large
     )
 }
